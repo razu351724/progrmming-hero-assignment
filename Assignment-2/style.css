@@ -88,8 +88,10 @@ nav{
 }
 
 .right-follo .tik-tok{
-    color: #000000;
     font-size: 24px;
+    background: linear-gradient(to left,#08FFF9, #000000, #F00044);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 
