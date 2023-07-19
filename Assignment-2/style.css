@@ -327,3 +327,95 @@ nav{
     left: -143px;
     bottom: -105px;
 }
+
+/* footer section starts */
+
+footer{
+    background-color:#0B0223;
+    color: #FFF;
+    width: auto;
+    height: 636px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container{
+    text-align: center;
+}
+
+.footer-gamer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-gamer img{
+    width: 86px;
+}
+
+.footer-gamer h3{
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer-gamer h3 span{
+    background: linear-gradient(90deg, #FFF 0%, #FFF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 45px;
+    font-weight: 700;
+    }
+
+.footer-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.footer-nav p{
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 10px;
+    padding-bottom:10px ;
+}
+
+.footer-icon i, strong{
+    font-size: 40px;
+}
+
+.footer-bottm-nav{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    justify-content: center;
+}
+
+.footer-bottm-nav p{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer-container p{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+}
