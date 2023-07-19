@@ -1,3 +1,4 @@
+    /* css responsive  */
 @media screen and (min-width:425px) and (max-width:768px){
     header{
         padding-bottom: 20px;
@@ -21,6 +22,29 @@
 
     .header-right .right-item{
         flex-direction: column;
+    }
+
+    /* banner section section starts */
+    .banner-container{
+        flex-direction: column-reverse;
+        gap: 10px; 
+    }
+
+    .banner-text{
+        width: 90%;
+        object-fit: cover;
+        margin: 0 auto;
+        box-sizing: border-box;
+        padding: 10px;
+        
+    }
+    
+    .banner-img{
+        width: 90%;
+        object-fit: cover;
+        margin: 0 auto;
+        box-sizing: border-box;
+        padding: 5px;
     }
 }
 
@@ -47,5 +71,46 @@
 
     .header-right .right-item{
         flex-direction: column;
+    }
+
+    /* banner section section starts */
+    .banner-container{
+        flex-direction: column-reverse;
+        gap: 10px; 
+    }
+
+    .banner-text{
+        width: 90%;
+        object-fit: cover;
+        margin: 0 auto;
+        box-sizing: border-box;
+        padding: 10px;
+        
+    }
+
+    .banner-text h5 {
+        font-size: 35px;
+    }
+
+    .banner-text h1{font-size: 62px;}
+
+    .banner-button .button-sign{
+        width: 100px;
+        height: 50px;
+        font-size: 15px;
+    } 
+
+    .banner-button .button-rogue{
+        width: 120px;
+        height: 50px;
+        font-size: 15px;
+    }
+
+    .banner-img{
+        width: 90%;
+        object-fit: cover;
+        margin: 0 auto;
+        box-sizing: border-box;
+        padding: 5px;
     }
 }
