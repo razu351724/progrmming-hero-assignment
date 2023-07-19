@@ -1,4 +1,4 @@
-    /* css responsive  */
+    /* Tablet responsive */
 @media screen and (min-width:425px) and (max-width:768px){
     header{
         padding-bottom: 20px;
@@ -47,8 +47,23 @@
         padding: 5px;
     }
 
-      /* online-section-bottom stated */
-      .online-section-bottom{
+    * onlie games section starts */
+    .online-h3{
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+
+    .online-h3 span{
+        font-size: 25px;
+    }
+
+    .online-p{
+        font-size: 15px;
+    }
+    
+
+    /* online-section-bottom stated */
+    .online-section-bottom{
         flex-direction: column;
         text-align: center; 
     }
@@ -56,8 +71,10 @@
     .games-card{
         margin: 60px auto;
     }
-
-        /* play instantly section starts */
+    .games-card img{
+        width: 100%;
+        margin: 0 auto;
+    }
 
 .play-instantly-container{
     flex-direction: column;
@@ -81,7 +98,65 @@
     left: -71px;
     bottom: -31px;
 }
+
+ /* play instantly section starts */
+
+ .play-instantly-container{
+    flex-direction: column;
+    margin: 40px auto;
+    gap: 80px;
 }
+
+.play-instantly-text{
+    width: 100%;
+    text-align:center;
+}
+
+.play-instantly-img{
+    width: 80%;
+}
+
+.talkion-img img{
+    width: 201px;
+    height: auto;
+    left: -11px;
+    bottom: -31px;
+}
+
+/* Team section starts */
+
+.team-item-top{
+    grid-template-columns: auto auto auto;
+}
+
+/* footer section stated */
+
+.footer-nav{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr) ;
+    gap: 10px;
+}
+
+.footer-container{
+    text-align: center;
+    width: 90%;
+}
+
+.footer-icon{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    padding-top: 10px;
+    padding-bottom:10px ;
+}
+
+.footer-bottm-nav{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+}
+/* mobile responsive stated*/
 
 @media screen and (max-width:425px){
     header{
@@ -172,6 +247,10 @@
     .games-card{
         margin: 60px auto;
     }
+    .games-card img{
+        width: 100%;
+        margin: 0 auto;
+    }
 
     /* play instantly section starts */
 
@@ -197,4 +276,82 @@
     bottom: -31px;
 }
 
+/* Team section starts */
+
+.team-section{
+    margin: 160px auto; 
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+}
+
+.team-item-top{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 0 auto;
+}
+
+.team-item-bottom{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.team-man {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5;
+}
+
+.team-man img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+ }
+
+.team-man p{
+    text-align: center;
+    color: #0B0223;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#arade-games{
+    border: 2px solid #FF42A5;
+    border-radius: 50px;
+}
+
+/* Team section starts */
+
+.team-item-top{
+    grid-template-columns: auto auto auto;
+}
+
+/* footer section stated */
+
+.footer-nav{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr) ;
+    gap: 10px;
+}
+
+.footer-container{
+    text-align: center;
+    width: 90%;
+}
+
+.footer-icon{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    padding-top: 10px;
+    padding-bottom:10px ;
+}
+
+.footer-bottm-nav{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    
+}
 }
