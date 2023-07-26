@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Website</title>
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- google fonts link -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- daisyui use cdn link-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind play cdn link-->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                'color': '#F85559',
+              }
+            }
+          }
+        }
+      </script>
+      <!-- css style -->
+      <style>
+        .lato-font{font-family: 'Lato', sans-serif;}
+      </style>
+</head>
+<body class="lato-font">
+    <header class="container mx-auto">
+      <!-- Navigation Bar -->
+        <div class="navbar bg-inherit sm:bg-color py-4 lg:px-4 lg:rounded-full">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <label tabindex="0" class="btn btn-ghost lg:hidden ">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#121212] sm:text-[#fff]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+                </label>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-lg ">
+                  <li>Home</li>
+                  <li>About Us</li>
+                  <li>Shop</li>
+                  <li>All Fruits</li>
+                </ul>
+              </div>
+              <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1  gap-7 text-lg font-medium text-[#FFF] ">
+                  <li>Home</li>
+                  <li>About Us</li>
+                  <li>Shop</li>
+                  <li>All Fruits</li>
+                </ul>
+              </div>
+            </div>
+            <div class="navbar-center  ">
+                <img src="./images/logo.png" alt="#">
+              <a class="btn btn-ghost normal-case text-xl sm:text-5xl  md:text-3xl font-bold text-[#121212] sm:text-white hover:bg-[white] sm:hover:bg-[#F85559]">Fruit Burst</a>
+            </div>
+            <div class="navbar-end  relative   invisible sm:visible">
+                <input type="text" placeholder="Search"  class="input input-bordered w-20 md:w-auto   " />
+              <i class="fa-solid fa-magnifying-glass absolute right-0 md:right-6   invisible md:visible text-gray-500"></i>
+            </div>
+        </div>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
