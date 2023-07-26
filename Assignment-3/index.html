@@ -11,27 +11,26 @@
     <!-- daisyui use cdn link-->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
     <!-- Tailwind play cdn link-->
     <script>
         tailwind.config = {
           theme: {
             extend: {
               colors: {
-                'color': '#F85559',
+                'color-bg': '#F85559',
+                'color-text':'#FFF'
               }
             }
           }
         }
       </script>
-      <!-- css style -->
-      <style>
-        .lato-font{font-family: 'Lato', sans-serif;}
-      </style>
 </head>
 <body class="lato-font">
     <header class="container mx-auto">
       <!-- Navigation Bar -->
-        <div class="navbar bg-inherit sm:bg-color py-4 lg:px-4 lg:rounded-full">
+        <div class="navbar bg-inherit sm:bg-color-bg py-4 lg:px-4 lg:rounded-full">
             <div class="navbar-start">
               <div class="dropdown">
                 <label tabindex="0" class="btn btn-ghost lg:hidden ">
@@ -61,6 +60,90 @@
                 <input type="text" placeholder="Search"  class="input input-bordered w-20 md:w-auto   " />
               <i class="fa-solid fa-magnifying-glass absolute right-0 md:right-6   invisible md:visible text-gray-500"></i>
             </div>
+        </div>
+         <!-- banner section -->
+         <div class="carousel w-full">
+          <div id="slide1" class="carousel-item relative w-full bg-img h-[600px] my-20 justify-center ">
+            <!-- slider item -->
+            <div class="text-center mt-20 space-y-5 ">
+              <h1 class=" text-color-text font-extralight text-5xl md:text-7xl">Exotic tastes at your <br> doorstep</h1>
+              <p class="font-medium text-xl text-color-text">We supply highly quality organic products</p>
+              <button class="btn btn-primary rounded-lg bg-color-bg hover:bg-color-bg border-none text-color-text text-xl font-extrabold">Shop Now </button>
+            </div>
+            <!-- card -->
+            <div class=" flex flex-row   mx-auto absolute -bottom-28 invisible lg:visible "> 
+              <!-- card-1 -->
+              <div class=" bg-base-100 shadow-xl rounded-tl-xl ">
+                <figure class="px-10 pt-10">
+                  <img src="./images/fruit1.png" alt="Shoes" class="rounded-none" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <p class="text-[#121212] font-medium text-xl">Strawberry</p>
+                </div>
+              </div>
+              <!-- card-2 -->
+              <div class=" bg-base-100 shadow-xl ">
+                <figure class="px-10 pt-10">
+                  <img src="./images/fruit2.png" alt="Shoes" class="rounded-none" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <p class="text-[#121212] font-medium text-xl">Strawberry</p>
+                </div>
+              </div>
+              <!-- card-3 -->
+              <div class=" bg-base-100 shadow-xl ">
+                <figure class="px-10 pt-10">
+                  <img src="./images/fruit3.png" alt="Shoes" class="rounded-none" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <p class="text-[#121212] font-medium text-xl">Strawberry</p>
+                </div>
+              </div>
+              <!-- card-4 -->
+              <div class=" bg-base-100 shadow-xl ">
+                <figure class="px-10 pt-10">
+                  <img src="./images/fruit4.png" alt="Shoes" class="rounded-none" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <p class="text-[#121212] font-medium text-xl">Strawberry</p>
+                </div>
+              </div>
+              <!-- card-5 -->
+              <div class=" bg-base-100 shadow-xl rounded-tr-xl">
+                <figure class="px-10 pt-10">
+                  <img src="./images/fruit5.png" alt="Shoes" class="rounded-none" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <p class="text-[#121212] font-medium text-xl">Strawberry</p>
+                </div>
+              </div>
+            </div>
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide4" class="btn btn-circle">❮</a> 
+              <a href="#slide2" class="btn btn-circle">❯</a>
+            </div>
+          </div> 
+          <div id="slide2" class="carousel-item relative w-full">
+            <img src="/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide1" class="btn btn-circle">❮</a> 
+              <a href="#slide3" class="btn btn-circle">❯</a>
+            </div>
+          </div> 
+          <div id="slide3" class="carousel-item relative w-full">
+            <img src="/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide2" class="btn btn-circle">❮</a> 
+              <a href="#slide4" class="btn btn-circle">❯</a>
+            </div>
+          </div> 
+          <div id="slide4" class="carousel-item relative w-full">
+            <img src="/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide3" class="btn btn-circle">❮</a> 
+              <a href="#slide1" class="btn btn-circle">❯</a>
+            </div>
+          </div>
         </div>
     </header>
     <main>

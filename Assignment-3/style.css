@@ -1,0 +1,9 @@
+.lato-font{font-family: 'Lato', sans-serif;}
+/* banner section */
+.bg-img{
+    background-image: url('./images/banner1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
