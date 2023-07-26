@@ -1,9 +1,29 @@
 .lato-font{font-family: 'Lato', sans-serif;}
 /* banner section */
-.bg-img{
+.slider-img-1{
     background-image: url('./images/banner1.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-   
-}
+   }
+   /* slider-img-2 */
+   .slider-img-2{
+    background-image: url('./images/banner2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   }
+   /* slider-img-3 */
+   .slider-img-3{
+    background-image: url('./images/banner3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   }
+   /* slider-img-4 */
+   .slider-img-4{
+    background-image: url('./images/banner4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   }
